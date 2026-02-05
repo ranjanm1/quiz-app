@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8080";
+const API_BASE = "quiz-app-production-393f.up.railway.app";
 
 export async function getHealth() {
   const res = await fetch(`${API_BASE}/health`);
